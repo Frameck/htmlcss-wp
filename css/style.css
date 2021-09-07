@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 30px 150px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+    height: 100px;
+    background-color: rgb(228, 115, 238);
+    margin-bottom: 15px;
+}
+
+.hero-section {
+    height: 300px;
+    background-color: rgb(245, 245, 113);
+    margin-bottom: 15px;
+}
+
+.main-container {
+    background-color: rgb(56, 107, 194);
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.top-header {
+    width: 100%;
+    height: 70px;
+    margin-bottom: 15px;
+    background-color: rgb(126, 195, 255);
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col {
+    float: left;
+    height: 450px;
+    width: 20%;
+    background-color: rgb(126, 195, 255);
+}
+
+.center {
+    width: calc(60% - 30px);
+    margin: 0 15px;
+}
+
+footer {
+    height: 70px;
+    background-color: rgb(134, 23, 145);
+}
